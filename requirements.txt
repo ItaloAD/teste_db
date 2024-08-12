@@ -1,0 +1,4 @@
+pandas==2.2.2
+SQLAlchemy==2.0.25
+streamlit==1.30.0
+streamlit==1.36.0
