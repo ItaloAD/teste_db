@@ -1,6 +1,7 @@
 import streamlit as st
 from sqlalchemy import create_engine
 import pandas as pd
+import pymysql
 
 def conectar_db_spec (user,password,host,db):
     return create_engine(f"mysql+pymysql://{user}:{password}@{host}/{db}")
